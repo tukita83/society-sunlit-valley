@@ -3,6 +3,7 @@
   "advancements.caverns_and_chasms.husbandry.obtain_ancient_hoes.description": "用铱锭升级一把锄头，然后意识到生命是如此的微不足道",
   "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "放入铱锭",
   "item.minecraft.smithing_template.netherite_upgrade.ingredients": "铱锭",
-  "item.minecraft.smithing_template": "铱锻造模板",
+  "item.minecraft.smithing_template": "锻造模板",
   "upgrade.minecraft.netherite_upgrade": "铱升级"
+
 }
