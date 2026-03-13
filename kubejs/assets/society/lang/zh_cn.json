@@ -678,7 +678,7 @@
   "block.society.recycling_machine.description": "将垃圾转化为可用的资源",
   "block.society.oil_maker.description": "制作各种类型的油",
   "block.society.mushroom_log.description": "根据附近的树木和大型蘑菇生长蘑菇。",
-  "block.society.seed_maker.description": "将作物加工成种子，3个一份。",
+  "block.society.seed_maker.description": "将 3 个相同的作物加工成种子。",
   "block.society.sparkstone_recycler.description": "有 10% 的几率返还相连工匠机器工作时消耗的火花石",
   "block.society.sparkstone_recycler.description.compatible": "兼容列表：工匠漏斗、迷你工匠漏斗、自动树液采集器、鱼塘篮子。",
   "block.society.tapper.description": "放置在原木侧面以采集资源",
@@ -2007,6 +2007,7 @@
   "item.society.zucchini_preserves": "西葫芦果酱"
 
 }
+
 
 
 
