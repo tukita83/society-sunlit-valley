@@ -1009,7 +1009,7 @@
   "block.society.magma_geode_node": "岩浆晶球",
   "block.society.mana_clock": "魔力时钟",
   "block.society.mana_fruit_crate": "箱装魔力果",
-  "block.society.mana_fruit_crop": "魔力果种子",
+  "block.society.mana_fruit_crop": "魔力果",
   "block.society.mana_king": "魔力王",
   "block.society.mana_milker": "魔力挤奶器",
   "block.society.mana_sprinkler": "魔力洒水器",
@@ -1068,6 +1068,18 @@
   "block.society.villager_home": "村民住宅",
   "block.society.violet_moon": "紫罗兰之月",
   "block.society.wine_keg": "酒桶",
+  "block.society.sparkpod": "火花豆",
+  "block.society.sweet_potato": "红薯",
+  "block.society.tubabacco_leaf": "土烟叶",
+  "block.veggiesdelight.garlic": "大蒜",
+  "block.society.ancient_fruit": "上古水果",
+  "block.society.blueberry": "蓝莓",
+  "block.society.carrot": "胡萝卜",
+  "block.society.cranberry": "蔓越莓",
+  "block.society.eggplant": "茄子", 
+  "block.society.onion": "洋葱",
+  "block.society.peanut": "花生",
+  "block.society.potato": "土豆",
 
   "item.society.aerinite": "青泥石",
   "item.society.aero_mono_bait": "气旋鲳鱼饵",
@@ -1995,6 +2007,7 @@
   "item.society.zucchini_preserves": "西葫芦果酱"
 
 }
+
 
 
 
