@@ -1203,9 +1203,9 @@
   "item.society.aged_sheep_cheese_block": "风味羊奶酪轮",
   "item.society.aged_shrimp_roe": "熟成虾籽酱",
   "item.society.aged_smallmouth_bass_roe": "熟成黑鲈鱼籽酱",
-  "item.society.aged_sneep_snorp_roe": "熟成斯尼普斯诺普鱼籽酱",
+  "item.society.aged_sneep_snorp_roe": "熟成长鼻鱼籽酱",
   "item.society.aged_solaris_wine": "陈酿发光浆果酒",
-  "item.society.aged_soulsucker_roe": "熟成吸魂鱼籽酱",
+  "item.society.aged_soulsucker_roe": "熟成魂吸鱼籽酱",
   "item.society.aged_sparkling_le_roy": "陈酿皇家起泡酒",
   "item.society.aged_spindlefish_roe": "熟成纺锤鱼籽酱",
   "item.society.aged_stal_wine": "陈酿Stal唱片红葡萄酒",
@@ -1524,7 +1524,7 @@
   "item.society.fantasy_box_nordic": "幻想盒子_北欧",
   "item.society.fantasy_box_royal": "幻想盒子_皇家",
   "item.society.fantasy_box_venthyr": "幻想盒子_文锡尔",
-  "item.society.fine_wool": "细羊毛",
+  "item.society.fine_wool": "优质绒毛",
   "item.society.fire_opal": "火欧泊",
   "item.society.first_aid_guide": "急救指南",
   "item.society.fish_radar": "探鱼器",
@@ -1912,8 +1912,8 @@
   "item.society.smoked_searing_cod": "熏制灼热鳕鱼",
   "item.society.smoked_shrimp": "熏制虾",
   "item.society.smoked_smallmouth_bass": "熏制黑鲈",
-  "item.society.smoked_sneep_snorp": "熏制斯尼普斯诺普",
-  "item.society.smoked_soulsucker": "熏制灵魂吸取者",
+  "item.society.smoked_sneep_snorp": "熏制长鼻鱼",
+  "item.society.smoked_soulsucker": "熏制魂吸鱼",
   "item.society.smoked_spindlefish": "熏制纺锤鱼",
   "item.society.smoked_starshell_turtle": "熏制星壳龟",
   "item.society.smoked_synodontis": "熏制突齿鲶鱼",
@@ -1926,8 +1926,8 @@
   "item.society.sneep_snorp_roe": "长鼻鱼籽",
   "item.society.sniffer_mayonnaise": "嗅探兽蛋黄酱",
   "item.society.soapstone": "皂石",
-  "item.society.soulsucker_bait": "吸魂鱼饵",
-  "item.society.soulsucker_roe": "吸魂鱼籽",
+  "item.society.soulsucker_bait": "魂吸鱼饵",
+  "item.society.soulsucker_roe": "魂吸鱼籽",
   "item.society.source_gem": "源石",
   "item.society.spark_gro": "火花催生剂",
   "item.society.sparkpod": "火花豆",
@@ -2007,6 +2007,7 @@
   "item.society.zucchini_preserves": "西葫芦果酱"
 
 }
+
 
 
 
