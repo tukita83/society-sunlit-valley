@@ -344,7 +344,6 @@
     "item:everycomp:rfm/rainbowoaks/rainbow_hedge",
     "item:everycomp:q/rainbowoaks/rainbow_leaf_carpet",
     "item:minecraft:painting{EntityTag:{variant:\"portfolio:rainbows_alt\"}}",
-    "item:create:brass_ingot",
     "item:society:prismatic_shard_block",
     "item:botania:gaia_ingot",
     "item:botania:terrasteel_ingot",
@@ -756,7 +755,6 @@
     "item:splendid_slimes:slime_item{slime:{id:\"splendid_slimes:bear\"}}",
     "item:splendid_slimes:slime_item{slime:{id:\"splendid_slimes:bony\"}}",
     "item:splendid_slimes:slime_item{slime:{id:\"splendid_slimes:bitwise\"}}",
-    "item:splendid_slimes:slime_item{slime:{id:\"splendid_slimes:luminous\"}}",
     "item:splendid_slimes:slime_item{slime:{id:\"splendid_slimes:juicy\"}}",
     "item:splendid_slimes:slime_item{slime:{id:\"splendid_slimes:gold\"}}",
     "item:splendid_slimes:slime_item{slime:{id:\"splendid_slimes:ender\"}}",
@@ -1018,8 +1016,8 @@
     "#item:forge:cabbage",
     "item:veggiesdelight:vegetables_wrap",
     [
-      "item:veggiesdelight:smoked_bellpepper",
       "item:veggiesdelight:roasted_zucchini",
+      "item:veggiesdelight:smoked_bellpepper",
       "#item:forge:mushrooms"
     ],
     "item:veggiesdelight:smoked_bellpepper",
@@ -1581,17 +1579,17 @@
     ],
     "tags": {},
     "resolutions": {
-      "jei:/create/kjs/9injiv9x2tx0adzrxp5ibkm0n": [
+      "jei:/create/kjs/f2zwwjjex5xv71h7f1pfchh4v": [
         {
           "type": "fluid",
-          "id": "create_central_kitchen:aloe_gel",
+          "id": "society:mystic_syrup",
           "amount": 250
         }
       ],
       "jei:/create/kjs/f2zwwjjex5xv71h7f1pfchh4v": [
         {
           "type": "fluid",
-          "id": "society:mystic_syrup",
+          "id": "create_central_kitchen:aloe_gel",
           "amount": 250
         }
       ],

@@ -1,8 +1,5 @@
 {
   "type": "farmersdelight:cooking",
-  "container": {
-    "item": "bakery:jar"
-  },
   "cookingtime": 200,
   "experience": 1.0,
   "ingredients": [

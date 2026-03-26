@@ -195,7 +195,7 @@ const handlePet = (name, data, mood, day, peckish, hungry, e) => {
       1,
       0.01
     );
-    global.giveExperience(server, player, "husbandry", 10 * hearts);
+    global.giveExperience(server, player, "husbandry", Math.max(10, 20 * hearts));
     if (!livableArea && !data.clockwork) {
       errorText = Text.translatable(
         "society.husbandry.crowded",
@@ -718,7 +718,6 @@ global.handleHusbandryBase = (hand, player, item, target, level, server) => {
         );
       }
       if (
-        mood > 160 &&
         player.stages.has("bff") &&
         item === "society:friendship_necklace" &&
         !data.bff

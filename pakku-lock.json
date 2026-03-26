@@ -11796,42 +11796,6 @@
             ]
         },
         {
-            "pakku_id": "8DBxPuGBVg9syGAd",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "timeline"
-            },
-            "name": {
-                "curseforge": "Timeline"
-            },
-            "id": {
-                "curseforge": "1454051"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "rpgtimeline-forge-1.20.1-2.0.4.2.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7682/378/rpgtimeline-forge-1.20.1-2.0.4.2.jar",
-                    "id": "7682378",
-                    "parent_id": "1454051",
-                    "hashes": {
-                        "sha1": "18aa045e91380833b94571b0591d49b98c60bfc8",
-                        "md5": "b8893b6eba99520052673180ae3ae23b"
-                    },
-                    "required_dependencies": [],
-                    "size": 413638,
-                    "date_published": "2026-02-26T17:52:01.677Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "TbEKO6YuJDh5LCIC",
             "type": "MOD",
             "side": "CLIENT",
@@ -12374,7 +12338,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "VanillaBackport-forge-1.20.1-1.1.5.4.2.jar",
+                    "file_name": "VanillaBackport-forge-1.20.1-1.1.6.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12382,18 +12346,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7597/658/VanillaBackport-forge-1.20.1-1.1.5.4.2.jar",
-                    "id": "7597658",
+                    "url": "https://edge.forgecdn.net/files/7812/358/VanillaBackport-forge-1.20.1-1.1.6.jar",
+                    "id": "7812358",
                     "parent_id": "417430",
                     "hashes": {
-                        "sha1": "4d4d63fd5ec405d01493a32da3ef691241376caa",
-                        "md5": "e3d2a11fd3768beb4b1e13e158b2d8b8"
+                        "sha1": "2747ce5608bc484cd72e80093200cabcbc192b39",
+                        "md5": "2f2293576cd6b40d70a7411689407284"
                     },
                     "required_dependencies": [
                         "997634"
                     ],
-                    "size": 28385661,
-                    "date_published": "2026-02-09T03:17:26.567Z"
+                    "size": 28403997,
+                    "date_published": "2026-03-25T17:16:45.433Z"
                 }
             ]
         },

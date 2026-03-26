@@ -240,6 +240,7 @@ const rawLogs = [
   "beachparty:palm_log",
   "vinery:apple_log",
   "autumnity:maple_log",
+  "autumnity:sappy_maple_log",
   "atmospheric:rosewood_log",
   "atmospheric:morado_log",
   "atmospheric:yucca_log",
@@ -500,6 +501,7 @@ ServerEvents.tags("item", (e) => {
   e.add("splendid_slimes:slime_vac_fireable", "#society:preserves");
   e.add("splendid_slimes:slime_vac_fireable", "minecraft:bone");
   e.add("aquaculture:bobber", "society:neptunium_bobber");
+  e.add("herbalbrews:small_water_fill", 'herbalbrews:water_cup');
 
   global.cooking.forEach((meal) => {
     e.add("society:dish", meal.item);

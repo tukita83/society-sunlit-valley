@@ -3,7 +3,6 @@ console.info("[SOCIETY] dayCounterTick.js loaded");
 const playerTickRate = 200;
 
 const playerProgTime = 20;
-const seasonDays = 30;
 const dayTickDuration = 24000;
 
 const statueBuffs = [
@@ -48,7 +47,7 @@ PlayerEvents.tick((e) => {
   ) {
     // Sleeping cuts the amount of possible days by half
     let yearCount =
-      player.stats.playTime / dayTickDuration / ((seasonDays * 4) / 2);
+      player.stats.playTime / dayTickDuration / (((global.subSeasonDuration  * 3) * 4) / 2);
     if (
       !player.stages.has("master_cultivator_unlocked") &&
       yearCount > 1 &&

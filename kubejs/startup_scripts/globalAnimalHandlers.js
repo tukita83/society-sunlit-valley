@@ -24,9 +24,9 @@ global.getAnimalIsNotCramped = (target, scale, applyGlowing) => {
 
 global.isWarpedCow = (target) => {
   if (target.type === "meadow:wooly_cow") {
+    if (target.toString().includes("WoolyCowEntity")) return Number(target.getNbt().Variant) === 2
     let variant = target.Variant
     if (variant && Number(variant) === 2) return true;
-    else return Number(target.getNbt().Variant) === 2
   }
   return false;
 }

@@ -134,6 +134,7 @@ global.getArtisanMachineData = (player, block, upgraded, stages) => {
       machineData = {
         recipes: global.wineKegRecipes,
         stageCount: 6,
+        multipleInputs: true,
         soundType: "minecraft:block.wood.place",
       };
       break;

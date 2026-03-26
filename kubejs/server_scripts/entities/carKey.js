@@ -6,13 +6,20 @@ BlockEvents.rightClicked((e) => {
   const playerDrunk =
     player.potionEffects.isActive("brewery:drunk") ||
     player.potionEffects.isActive("brewery:blackout");
-    
+
   if (!playerDrunk && item.nbt && block) {
     let car = e.player.level.createEntity("automobility:automobile");
-    item.nbt.Pos[0] = Number(block.getX());
-    item.nbt.Pos[1] = Number(block.getY() + 2);
-    item.nbt.Pos[2] = Number(block.getZ());
-    car.nbt = item.nbt;
+    if (item.nbt.car) {
+      item.nbt.car.Pos[0] = Number(block.getX());
+      item.nbt.car.Pos[1] = Number(block.getY() + 2);
+      item.nbt.car.Pos[2] = Number(block.getZ());
+      car.nbt = item.nbt.car;
+    } else {
+      item.nbt.Pos[0] = Number(block.getX());
+      item.nbt.Pos[1] = Number(block.getY() + 2);
+      item.nbt.Pos[2] = Number(block.getZ());
+      car.nbt = item.nbt
+    }
     car.spawn();
     item.nbt = null;
   } else if (playerDrunk) {
@@ -24,10 +31,15 @@ BlockEvents.rightClicked((e) => {
 
 ItemEvents.entityInteracted("society:car_key", (e) => {
   const { item, target } = e;
-  if (target.type !== "automobility:automobile" || item.nbt) {
+  if (target.type !== "automobility:automobile" || item.nbt && item.nbt.car) {
     return;
   }
-  item.nbt = target.getNbt();
+  if (item.nbt) {
+    item.nbt.car = target.getNbt();
+  } else {
+    item.nbt = {}
+    item.nbt.car = target.getNbt();
+  }
   target.setRemoved("unloaded_to_chunk");
   e.cancel();
 });

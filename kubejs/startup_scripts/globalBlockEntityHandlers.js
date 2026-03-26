@@ -891,15 +891,19 @@ global.getProcessedItem = (item, dropAmount) => {
   let processOutput = global.mayonnaiseMachineRecipes.get(item);
   if (processOutput)
     return { divisor: 1, item: Item.of(processOutput.output[0]).id, preserveQuality: true };
+  // Wine Keg 
   processOutput = global.wineKegRecipes.get(item);
   if (processOutput)
     return { divisor: 3, item: Item.of(processOutput.output[0]).id, preserveQuality: false };
+  // Oil Maker
   processOutput = global.oilMakerRecipes.get(item);
-  if (processOutput && dropAmount >= 5)
-    return { divisor: 5, item: Item.of(processOutput.output[0]).id, preserveQuality: false };
-  processOutput = global.loomRecipes.get(item);
   if (processOutput)
     return { divisor: 1, item: Item.of(processOutput.output[0]).id, preserveQuality: false };
+  // Loom
+  processOutput = global.loomRecipes.get(item);
+  if (processOutput && dropAmount >= 5)
+    return { divisor: 5, item: Item.of(processOutput.output[0]).id, preserveQuality: false };
+  // Recycling Machine
   processOutput = global.recyclingMachineRecipes.get(item);
   if (processOutput)
     return { divisor: 1, item: Item.of(processOutput.output[0]).id, preserveQuality: false };
