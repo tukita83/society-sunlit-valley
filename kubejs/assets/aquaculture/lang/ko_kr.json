@@ -12,6 +12,7 @@
   "item.aquaculture.nether_star_hook": "넵튜늄 주입 낚싯바늘",
   "aquaculture.nether_star_hook.tooltip.title" : "렐릭 사냥꾼",
   "aquaculture.nether_star_hook.tooltip.desc": "렐릭 상자를 건질 확률 4%, 행운 상승",
+  "aquaculture.neptunium_hoe.tooltip.desc" : "경작지에 보습 비료 효과를 줍니다",
 
 
   
@@ -145,7 +146,6 @@
   "aquaculture.neptunium_axe.tooltip.title" : "넵튠의 힘",
   "aquaculture.neptunium_axe.tooltip.desc" : "물 속에 있는 대상에게 가하는 피해가 증가합니다",
   "aquaculture.neptunium_hoe.tooltip.title" : "넵튠의 선물",
-  "aquaculture.neptunium_hoe.tooltip.desc" : "경작지가 덜 마르게 됩니다",
   "aquaculture.neptunium_shovel.tooltip.title" : "넵튠의 은혜",
   "aquaculture.neptunium_shovel.tooltip.desc" : "물 속에서의 채굴 속도 패널티가 사라집니다",
   "aquaculture.neptunium_sword.tooltip.title" : "넵튠의 힘",

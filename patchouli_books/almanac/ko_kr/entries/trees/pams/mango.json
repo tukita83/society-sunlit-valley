@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)정보$()$(li)🔥 §6여름§r $(li)가격: :coin: 16,384$(li)크기: 1x1$(li)결실:$(l:tree_crops/mango)망고 8개$(/l)$(br2)$(l)메모$()$(li)달인 재배자에게서 묘목을 구매할 수 있습니다."
+            "text": "$(l)정보$()$(li)🔥 §6여름§r $(li)가격: :coin: 16,384$(li)크기: 1x1$(li)결실:$(l:tree_crops/mango)망고 8개$(/l)$(br2)$(l)메모$()$(li)2년차에 마트에서 묘목을 구매할 수 있습니다."
         },
         {
             "type": "patchouli:multiblock",
