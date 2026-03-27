@@ -221,7 +221,7 @@ global["JadeSocietyCropClientCallback"] = (
     || hasGreenhouseGlass(accessor.getLevel(), accessor.getPosition());
   };
 
-  if ($SereneFertility.isCrop(state) && !skips.includes(name)) {
+  if ($SereneFertility.isCrop(state) && !skips.includes(name.toString())) {
     try {
       if (block instanceof $CropBlock) {
         addGrowthLevelTooltip(block.getAge(state), block.getMaxAge(), isCropFertile(name));
@@ -239,7 +239,7 @@ global["JadeSocietyCropClientCallback"] = (
       tooltip.add(Component.translatable("jade.society.crop_growth.stop").red());
   } else {
     $JadeCropInfo.INSTANCE.appendTooltip(tooltip.getTooltip(), accessor, pluginConfig);
-    if (skips.includes(name) && !isCropFertile(name)) {
+    if (skips.includes(name.toString()) && !isCropFertile(name)) {
       tooltip.add(Component.translatable("jade.society.crop_growth.stop").red());
     }
   }
