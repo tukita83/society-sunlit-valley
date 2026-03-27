@@ -161,7 +161,21 @@ global["JadeSocietyCropClientCallback"] = (
     "minecraft:nether_wart",
     "atmospheric:aloe_vera",
     "farmersdelight:rice",
-    "pamhc2trees:pam"
+    "pamhc2trees:pamcinnamon",
+    "pamhc2trees:pamdragonfruit",
+    "pamhc2trees:pamstarfruit",
+    "pamhc2trees:pamlychee",
+    "pamhc2trees:pampassionfruit",
+    "pamhc2trees:pammango",
+    "pamhc2trees:pambanana",
+    "pamhc2trees:pampawpaw",
+    "pamhc2trees:pamhazelnut",
+    "pamhc2trees:pamorange",
+    "pamhc2trees:pamplum",
+    "pamhc2trees:pampeach",
+    "pamhc2trees:pamlemon",
+    "pamhc2trees:pamcherry",
+    "pamhc2trees:pamapple"
   ];
   const needsFarmland = [
     "minecraft:sweet_berry_bush",
@@ -207,7 +221,7 @@ global["JadeSocietyCropClientCallback"] = (
     || hasGreenhouseGlass(accessor.getLevel(), accessor.getPosition());
   };
 
-  if ($SereneFertility.isCrop(state) && !skips.some(s => name.toString().includes(s))) {
+  if ($SereneFertility.isCrop(state) && !skips.includes(name)) {
     try {
       if (block instanceof $CropBlock) {
         addGrowthLevelTooltip(block.getAge(state), block.getMaxAge(), isCropFertile(name));
@@ -225,7 +239,7 @@ global["JadeSocietyCropClientCallback"] = (
       tooltip.add(Component.translatable("jade.society.crop_growth.stop").red());
   } else {
     $JadeCropInfo.INSTANCE.appendTooltip(tooltip.getTooltip(), accessor, pluginConfig);
-    if (skips.some(s => name.toString().includes(s)) && !isCropFertile(name)) {
+    if (skips.includes(name) && !isCropFertile(name)) {
       tooltip.add(Component.translatable("jade.society.crop_growth.stop").red());
     }
   }
