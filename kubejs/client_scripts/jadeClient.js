@@ -8,9 +8,6 @@ const $BooleanProperty = Java.loadClass(
 const $CropBlock = Java.loadClass(
   "net.minecraft.world.level.block.CropBlock"
 );
-const $BlockStateProperties = Java.loadClass(
-  "net.minecraft.world.level.block.state.properties.BlockStateProperties"
-);
 const $SereneFertility = Java.loadClass("sereneseasons.init.ModFertility");
 const $JadeCropInfo = Java.loadClass("snownee.jade.addon.vanilla.CropProgressProvider");
 const Vec2 = Java.loadClass("net.minecraft.world.phys.Vec2");
@@ -184,6 +181,18 @@ global["JadeSocietyCropClientCallback"] = (
     "farmersdelight:rice",
     "farmersdelight:rice_panicles"
   ];
+  const grapeMap = {
+    red: "vinery:red_grape_seeds",
+    white: "vinery:white_grape_seeds",
+    savanna_red: "vinery:savanna_grape_seeds_red",
+    savanna_white: "vinery:savanna_grape_seeds_white",
+    taiga_red: "vinery:taiga_grape_seeds_red",
+    taiga_white: "vinery:taiga_grape_seeds_white",
+    jungle_red: "vinery:jungle_grape_seeds_red",
+    jungle_white: "vinery:jungle_grape_seeds_white",
+    crimson: "nethervinery:crimson_grape_seeds",
+    warped: "nethervinery:warped_grape_seeds"
+  };
 
   const hasGreenhouseGlass = (level, cropPos) => {
     let scannedBlock;
@@ -225,20 +234,30 @@ global["JadeSocietyCropClientCallback"] = (
     try {
       if (block instanceof $CropBlock) {
         addGrowthLevelTooltip(block.getAge(state), block.getMaxAge(), isCropFertile(name));
-      } else if (state.hasProperty($BlockStateProperties.AGE_7)) {
-        addGrowthLevelTooltip(state.getValue($BlockStateProperties.AGE_7), 7, isCropFertile(name));
-      } else if (state.hasProperty($BlockStateProperties.AGE_5)) {
-        addGrowthLevelTooltip(state.getValue($BlockStateProperties.AGE_5), 3, isCropFertile(name));
-      } else if (state.hasProperty($BlockStateProperties.AGE_4)) {
-        addGrowthLevelTooltip(state.getValue($BlockStateProperties.AGE_4), 3, isCropFertile(name));
-      } else if (state.hasProperty($BlockStateProperties.AGE_3)) {
-        addGrowthLevelTooltip(state.getValue($BlockStateProperties.AGE_3), 3, isCropFertile(name));
-      }
+      } else if (state.hasProperty(BlockProperties.AGE_7)) {
+        addGrowthLevelTooltip(state.getValue(BlockProperties.AGE_7), 7, isCropFertile(name));
+      } else if (state.hasProperty(BlockProperties.AGE_5)) {
+        addGrowthLevelTooltip(state.getValue(BlockProperties.AGE_5), 5, isCropFertile(name));
+      } else if (state.hasProperty(BlockProperties.AGE_4)) {
+        addGrowthLevelTooltip(state.getValue(BlockProperties.AGE_4), 4, isCropFertile(name));
+      } else if (state.hasProperty(BlockProperties.AGE_3)) {
+        addGrowthLevelTooltip(state.getValue(BlockProperties.AGE_3), 3, isCropFertile(name));
+      } 
     } catch (e) {}
   } else if (name.includes("grape_bush")) {
-      tooltip.add(Component.translatable("jade.society.crop_growth.stop").red());
-      if (name.includes("jungle")) tooltip.add(Component.translatable("jade.society.crop_growth.need_lattice").red());
-      else tooltip.add(Component.translatable("jade.society.crop_growth.need_stem").red());
+    let age = state.getValue(BlockProperties.AGE_3);
+    addGrowthLevelTooltip(age, 3, isCropFertile(grapeMap[name.replace("_grape_bush", "")]));
+    tooltip.add(Component.translatable("jade.society.crop_growth.stop").red());
+    if (name.includes("jungle")) tooltip.add(Component.translatable("jade.society.crop_growth.need_lattice").red());
+    else tooltip.add(Component.translatable("jade.society.crop_growth.need_stem").red());
+  } else if (name.includes("grapevine_stem") || name.match(/vinery:.+_lattice/i)) {
+    let age = state.getValue(BlockProperties.AGE_4);
+    if (age == 0) return;
+    addGrowthLevelTooltip(
+      age,
+      4,
+      isCropFertile(grapeMap[state.getValue(block.getStateDefinition().getProperty("grape")).getSerializedName()])
+    );
   } else {
     $JadeCropInfo.INSTANCE.appendTooltip(tooltip.getTooltip(), accessor, pluginConfig);
     if (skips.includes(name) && !isCropFertile(name)) {
