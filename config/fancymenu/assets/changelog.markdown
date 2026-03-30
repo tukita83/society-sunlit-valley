@@ -13,6 +13,7 @@
 - Added society:fish_pond_water tag for kelp counting as water
 - Added obsidian as a path block
 - Added ability to silk touch Herbalbrews dried tea leaves
+- Added bulk Mana Feed conversion recipe
 - ATMs, Phones, and Lootr chests can now be interacted with in claims
 - Beef Wellington now accepts beef, shockingly
 - Magic Shears now shear Minisheep
@@ -179,42 +180,7 @@
 - Removed Demon Herring's Galaxy Sword quest due to unfortunate incidents
 - Renamed Vinery Lattices to Grapevine Lattice
 - Renamed Grape Bushes to wild grapes and disabled their growth
-- Fixed Minisheep not counting for Sacrificial Lamb skill
-- Fixed Phone having normal recipe
-- Fixed Bamboo Galley not being craftable
-- Fixed Garlic Clove having seasons
-- Fixed Palm Torch not dropping when broken
-- Fixed Cluttered Logs not having log tag
-- Fixed Black Packed Silt recipe being missing
-- Fixed dried tea blocks not retaining quality
-- Fixed weird quest dependencies 
-- Fixed Paradise Crop not working on certain crops
-- Fixed Copycat Stair conversion recipe
-- Fixed Artisan Hoppers not handling multiple outputs
-- Fixed fake players working on Statue of Endless Fortune
-- Fixed block placement cancels resulting in ghost items
-- Fixed Fish Ponds losing quest status when broken
-- Fixed Cluttered counter edges being uncraftable
-- Fixed Cluttered plushies not being considered plushies
-- Fixed several issues with crop quality not calculating correctly
-- Fixed ribbit artifacts not being counted as artifacts
-- Fixed Cod & Brown Shrooma having incorrect time of day in Fish Finder 
-- Fixed tomatoes only growing up 1 vine
-- Fixed Sparkstone Recycler not working on Auto-Grabber and Fish Pond Basket
-- Fixed High Quality Fertilized Farmland not working
-- Fixed Strawberry having vegetable tag
-- Fixed trade limits not working on shops meant to have them
-- Fixed Ender Slime having wrong hat
-- Fixed slimes not losing huger if their owner is in a different dimension
-- Fixed certain farm animal drops not having quality
-- Fixed Garlic Clove being plantable
-- Fixed Ancient Cask not dropping all completed products when upgraded
-- Fixed not being able to change spawner types in creative
-- Fixed Ribbit Gardeners existing
-- Fixed Greenhouse Glass Stairs getting snow'd on and removing functionality
-- Fixed Sparkstone and Neptunium Blocks not being a valid beacon block
-- Fixed Birtday Cake not having a recipe
-- Fixed exploits
+- Various fixes that make the changelog too long to render
 
 ## 4.0.1
 - Villager home blocks can now be removed in creative if broken

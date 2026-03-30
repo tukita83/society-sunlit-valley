@@ -26,6 +26,7 @@
     }
   ],
   "lookup_history": [
+    "item:society:mana_feed",
     {
       "type": "item",
       "id": "herbalbrews:dried_green_tea",
@@ -1083,10 +1084,10 @@
     "item:veggiesdelight:stuffed_zucchini_boat",
     "item:veggiesdelight:zucchini_quiche",
     [
-      "item:minecraft:cooked_porkchop",
-      "item:farmersdelight:cooked_bacon",
-      "item:farm_and_charm:bacon_with_eggs",
       "item:candlelight:pork_ribs",
+      "item:minecraft:cooked_porkchop",
+      "item:farm_and_charm:bacon_with_eggs",
+      "item:farmersdelight:cooked_bacon",
       "item:brewery:pork_knuckle",
       "#item:forge:cooked_chicken",
       "#item:forge:cooked_beef",
@@ -1106,8 +1107,8 @@
     "#item:forge:cabbage",
     "item:veggiesdelight:vegetables_wrap",
     [
-      "item:veggiesdelight:roasted_zucchini",
       "item:veggiesdelight:smoked_bellpepper",
+      "item:veggiesdelight:roasted_zucchini",
       "#item:forge:mushrooms"
     ],
     "item:veggiesdelight:smoked_bellpepper",
@@ -1472,8 +1473,7 @@
     "item:pamhc2trees:pamorange",
     "item:pamhc2trees:pawpawitem",
     "item:pamhc2trees:hazelnutitem",
-    "item:pamhc2trees:mangoitem",
-    "item:pamhc2trees:roastedhazelnutitem"
+    "item:pamhc2trees:mangoitem"
   ],
   "craft_history": [
     "minecraft:yellow_outer_counter_left_recipe_1",
@@ -1584,9 +1584,9 @@
   ],
   "recipe_defaults": {
     "added": [
-      "jei:/create/kjs/8wkfd56owqz38eeg0aimv5kji",
+      "netherdepthsupgrade:eyeball",
       "minecraft:kjs/society_sun_candy",
-      "netherdepthsupgrade:eyeball"
+      "jei:/create/kjs/8wkfd56owqz38eeg0aimv5kji"
     ],
     "tags": {},
     "resolutions": {
