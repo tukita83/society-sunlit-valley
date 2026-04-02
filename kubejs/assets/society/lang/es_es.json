@@ -276,7 +276,7 @@
   "society.working_block_entity.can_use_hopper": "Automatable using hoppers[EN]",
   "society.working_block_entity.need_mana": "Requires Botania mana from spreader[EN]",
   "society.working_block_entity.apply_player_skill": "Uses the skills of player that places it.[EN]",
-  "society.shipping_bin.owner": "%s§6's§r Shipping Bin[EN]",
+  "society.shipping_bin.owner": "%s§r %s§6's§r Shipping Bin[EN]",
   "society.shipping_bin.sell_multipliers": "§f●§r Current sell multipliers:[EN]",
   "society.shipping_bin.multiplier": "%s: §ax%s[EN]",
   "society.shipping_bin.offline": "This is a stranger's Shipping Bin. They aren't online to draw stats from...[EN]",

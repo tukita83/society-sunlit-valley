@@ -301,7 +301,7 @@
   "society.working_block_entity.can_use_hopper": "호퍼로 자동화할 수 있습니다",
   "society.working_block_entity.need_mana": "마나 공급기로 보타니아의 마나를 공급받아야 합니다",
   "society.working_block_entity.apply_player_skill": "설치한 플레이어의 스킬이 적용됩니다",
-  "society.shipping_bin.owner": "%s의 배송 상자",
+  "society.shipping_bin.owner": "%s§r %s의 배송 상자",
   "society.shipping_bin.sell_multipliers": "§f●§r 현재 판매 배율:",
   "society.shipping_bin.multiplier": "%s: %s§a배",
   "society.shipping_bin.offline": "이 배송 상자의 주인은 현재 오프라인이기 때문에 정보를 불러올 수 없습니다...",

@@ -300,7 +300,7 @@
   "society.working_block_entity.can_use_hopper": "可使用漏斗实现自动化",
   "society.working_block_entity.need_mana": "需要消耗植物魔法魔力才能生长",
   "society.working_block_entity.apply_player_skill": "基于放置它的玩家的技能",
-  "society.shipping_bin.owner": "%s§6 的§r出货箱",
+  "society.shipping_bin.owner": "%s§r %s§6 的§r出货箱",
   "society.shipping_bin.sell_multipliers": "§f●§r 现在的价格加成：",
   "society.shipping_bin.multiplier": "%s: §ax%s",
   "society.shipping_bin.offline": "这是别人的出货箱。他现在不在线，不能查看加成数据...",
