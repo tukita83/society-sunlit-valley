@@ -2018,12 +2018,12 @@
     "curseForgeHash": 3402444196,
     "modrinthHash": "15296a7d8942a7a3376f293265b5146af6c42ec7"
   },
-  "society-1.15.jar": {
-    "jarName": "society-1.15.jar",
+  "society-1.16.jar": {
+    "jarName": "society-1.16.jar",
     "modId": "society",
-    "version": "1.15",
-    "curseForgeHash": 710360043,
-    "modrinthHash": "9adb0f3395b047e17c7dd0d32c82e2b164fc4204"
+    "version": "1.16",
+    "curseForgeHash": 3566033015,
+    "modrinthHash": "94a081aa2d2ea34a3ab242836fbc6e114b0834a9"
   },
   "society_trading-1.0.4.jar": {
     "jarName": "society_trading-1.0.4.jar",

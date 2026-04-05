@@ -3,10 +3,6 @@
 ### v4.0.5
 ^^^
 --- 
-- Added `subSeasonDuration` kubejs/startup_scripts/config.js. This allows year 2 to be synced if it's changed in serene season's config.
-- Updated zh_cn translation (Thanks Thirace446)
-- Updated es_es translation (Thanks tukita83)
-- Updated Steam and Rails, adding more decorative blocks and paint system
 - Added day count to crop Jade and other important info (Thanks Hexagreen)
 - Added recipes to pre-fertilize dirt
 - Added recipes to convert up Sophisticated Stack/tier upgrades
@@ -14,7 +10,11 @@
 - Added obsidian as a path block
 - Added ability to silk touch Herbalbrews dried tea leaves
 - Added bulk Mana Feed conversion recipe
-- ATMs, Phones, and Lootr chests can now be interacted with in claims
+- Added ability for ATMs, Phones, and Lootr chests to be interacted with in claims
+- Added subSeasonDuration to kubejs/startup_scripts/config.js. This allows year 2 to be synced if it's changed in serene season's config.
+- Updated zh_cn translation (Thanks Thirace446)
+- Updated es_es translation (Thanks tukita83)
+- Updated Steam and Rails, adding more decorative blocks and paint system
 - Beef Wellington now accepts beef, shockingly
 - Magic Shears now shear Minisheep
 - Aero Mono population 7 quest changed Heavy Core -> 16 Dream Catcher
