@@ -26,6 +26,10 @@
     }
   ],
   "lookup_history": [
+    {
+      "id": "irons_rpg_tweaks:drowsy"
+    },
+    "item:displaydelight:food_plate",
     "item:botania:flight_tiara{variant:2}",
     "item:society:mana_feed",
     {
@@ -1085,11 +1089,11 @@
     "item:veggiesdelight:stuffed_zucchini_boat",
     "item:veggiesdelight:zucchini_quiche",
     [
-      "item:farm_and_charm:bacon_with_eggs",
       "item:farmersdelight:cooked_bacon",
-      "item:candlelight:pork_ribs",
-      "item:minecraft:cooked_porkchop",
+      "item:farm_and_charm:bacon_with_eggs",
       "item:brewery:pork_knuckle",
+      "item:minecraft:cooked_porkchop",
+      "item:candlelight:pork_ribs",
       "#item:forge:cooked_chicken",
       "#item:forge:cooked_beef",
       "#item:forge:cooked_mutton"
@@ -1100,16 +1104,16 @@
     "item:veggiesdelight:cooked_vegetarian_patty",
     "item:veggiesdelight:raw_vegetarian_patty",
     [
+      "#item:forge:crops/zucchini",
       "#item:forge:crops/potato",
-      "#item:forge:crops/cauliflower",
-      "#item:forge:crops/zucchini"
+      "#item:forge:crops/cauliflower"
     ],
     "#item:forge:grain",
     "#item:forge:cabbage",
     "item:veggiesdelight:vegetables_wrap",
     [
-      "item:veggiesdelight:roasted_zucchini",
       "item:veggiesdelight:smoked_bellpepper",
+      "item:veggiesdelight:roasted_zucchini",
       "#item:forge:mushrooms"
     ],
     "item:veggiesdelight:smoked_bellpepper",
@@ -1471,9 +1475,7 @@
     "item:pamhc2trees:pamcherry",
     "item:pamhc2trees:pampeach",
     "item:pamhc2trees:pampawpaw",
-    "item:pamhc2trees:pamorange",
-    "item:pamhc2trees:pawpawitem",
-    "item:pamhc2trees:hazelnutitem"
+    "item:pamhc2trees:pamorange"
   ],
   "craft_history": [
     "minecraft:yellow_outer_counter_left_recipe_1",

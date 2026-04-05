@@ -25,11 +25,6 @@
         "url": "https://edge.forgecdn.net/files/7032/387/connectivity-1.20.1-7.2.jar"
     },
     {
-        "pattern": "CerbonsApi-Forge-1.20.1-1.0.0.jar",
-        "displayName": "CERBON's API [Forge | Fabric | NeoForge]",
-        "url": "https://edge.forgecdn.net/files/4992/38/CerbonsApi-Forge-1.20.1-1.0.0.jar"
-    },
-    {
         "pattern": "cosmeticarmorreworked-1.20.1-v1a.jar",
         "displayName": "Cosmetic Armor Reworked",
         "url": "https://edge.forgecdn.net/files/4600/191/cosmeticarmorreworked-1.20.1-v1a.jar"
