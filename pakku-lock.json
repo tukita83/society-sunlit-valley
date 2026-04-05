@@ -5437,6 +5437,42 @@
             ]
         },
         {
+            "pakku_id": "moFaXKiWUV0gImCy",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "fragmentum"
+            },
+            "name": {
+                "curseforge": "Fragmentum (Forge)"
+            },
+            "id": {
+                "curseforge": "1123970"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "fragmentum-forge-1.20.1-1.1.4.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7861/201/fragmentum-forge-1.20.1-1.1.4.jar",
+                    "id": "7861201",
+                    "parent_id": "1123970",
+                    "hashes": {
+                        "sha1": "02aa22eee381b11811e43a3ac36e6013eca5eae4",
+                        "md5": "3d695885c7d1d01789f5cdb7584de6d4"
+                    },
+                    "required_dependencies": [],
+                    "size": 1690913,
+                    "date_published": "2026-04-02T11:44:55.813Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "sdjvJ83wF1SWDa38",
             "type": "MOD",
             "slug": {
@@ -7225,6 +7261,9 @@
         },
         {
             "pakku_id": "N4E0BWnktwcd6ZdA",
+            "pakku_links": [
+                "moFaXKiWUV0gImCy"
+            ],
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
