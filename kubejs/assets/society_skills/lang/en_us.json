@@ -97,7 +97,7 @@
   "society_skills.husbandry.triple_truffle": "Triple Truffle",
   "society_skills.husbandry.triple_truffle.description": "Pigs drop triple §6Truffles",
   "society_skills.husbandry.sacrificial_lamb": "Sacrificial Lamb",
-  "society_skills.husbandry.sacrificial_lamb.description": "Killing a §6Sheep§7 passes half of its affection to some nearby farm animals",
+  "society_skills.husbandry.sacrificial_lamb.description": "Killing a §6Sheep§7 passes half of its affection to some nearby farm animals, except other sheep",
   "society_skills.husbandry.transplanting": "Transplanting",
   "society_skills.husbandry.transplanting.description": "Using a §6Heart of Diamond§7 on a farm animal adds a heart of affection",
   "society_skills.husbandry.shepherd": "Shepherd",

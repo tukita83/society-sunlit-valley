@@ -275,6 +275,7 @@ global.relics = [
   { item: "relics:chorus_inhibitor", value: 3072 },
   { item: "relics:midnight_robe", value: 3072 },
   { item: "relics:infinity_ham", value: 8192 },
+  { item: "relics:blazing_flask", value: 8192 },
   { item: "relics:space_dissector", value: 16384 },
   { item: "relics:spore_sack", value: 2560 },
   { item: "relics:rage_glove", value: 2560 },

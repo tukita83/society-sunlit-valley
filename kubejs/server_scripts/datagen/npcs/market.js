@@ -21,7 +21,7 @@ if (global.datagenDialog) {
         "Oh? You're telling me you need more seeds?",
         "I can't imagine wanting to be out in the fields all day.",
         ["I'm going to miss going to the cinema every week.", "I can't imagine Ace has the plans drawn up for one at the moment."],
-        "You look exhuasted, starting a farm must be taking it out of you.",
+        "You look exhausted, starting a farm must be taking it out of you.",
         ["I'm not used to this much solitude.", "It'd be nice if it wasn't so boring..."],
         ["Takes me a solid month to get used to sleeping in a new bed.", "It's not going so well..."],
         "Another quiet day in the valley.",
@@ -53,7 +53,7 @@ if (global.datagenDialog) {
         ],
         [
           "People don't really like to cook around here.",
-          "You'd make more money selling premade meals than just selling crops."
+          "You'd make more money selling pre-made meals than just selling crops."
         ],
         [
           "Why are you even doing all this farming?",
@@ -86,7 +86,7 @@ if (global.datagenDialog) {
         "Ugh, Haruna's been stinking up the market lately with her fish...",
         "I could go for some caviar right now...",
         "Is it socially acceptable to eat dinner yet?",
-        "Why do you like gardenining so much? Isn't it a little tedious?",
+        "Why do you like gardening so much? Isn't it a little tedious?",
         "Have you met any Ribbits yet? They fascinate me...",
         ["Kimchi...", "Oh! What's up?"],
         "The night is so beautiful and harsh out here.",
@@ -112,7 +112,7 @@ if (global.datagenDialog) {
           "Caroline hasn't been around in a while...",
           "I hope that means I'm doing alright here.",
         ],
-        "Have you ever been to emporio? Or did you not get out much back then",
+        "Have you ever been to Emporio? Or did you not get out much back then.",
         "I miss all my old friends, have they moved on by now?",
         "How's the farm treating you?",
         ["When it rains I feel this sense of dread, as if it's washing away my protective coating.", "Nature can be cruel."],
@@ -133,7 +133,7 @@ if (global.datagenDialog) {
         ["The best thing about living out here is the freshness of everything", "I never realized blueberries had such strong flavor!"],
         ["I wonder, are Magic Shears ethical?", "I'm sure if they weren't Maria wouldn't sell them..."],
         ["I'd much rather you exploit nature than other people.", "Nature always gets its revenge, while the weak have no advocates."],
-        ["Caroline visited me the other day! She seemed happy with our sales this season.", "Please dont let me dissapoint her!"],
+        ["Caroline visited me the other day! She seemed happy with our sales this season.", "Please don't let me disappoint her!"],
         "Caroline has really relaxed lately, have you been sweet talking her?",
         ["Were you ever much of a reader before moving here", "Literature can be inspiring, it's the frontier of the mind after all."],
         [
@@ -158,10 +158,10 @@ if (global.datagenDialog) {
         "This is a fine gift from a finer person!",
         "Aesthetically perfect. A work of art.",
         ["I can't stop looking at it...", "How on earth did you get your hands on this..."],
-        "It is the ultimate respect to recieve a masterwork from someone at the height of their craft."
+        "It is the ultimate respect to receive a masterwork from someone at the height of their craft."
       ],
       liked: [
-        "It's always pleasent to recieve a gift like this.",
+        "It's always pleasant to receive a gift like this.",
         "Nothing is easier than flattery, not that I mind!",
         ["It's much better to do good in a way that...", "No that's not right. I like this way more."],
         "You're very appreciated, I hope you know.",
@@ -185,7 +185,7 @@ if (global.datagenDialog) {
         "Well, it is a gift.",
         "Rough season at the farm?",
         "You could have put a little more thought into this.",
-        "I don't hate this for some reasonn.",
+        "I don't hate this for some reason.",
         "Are you even listening to me when I speak to you?",
         "Someone around here will definitely like this, I'm sure."
       ],

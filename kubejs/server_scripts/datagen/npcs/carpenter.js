@@ -47,7 +47,7 @@ if (global.datagenDialog) {
         ["You should ask Maria about getting a pet squirrel! They can forage for nuts and wild berries.", "I suppose they're kinda like me, in a way!"],
         ["Don't get the wrong idea about me, I'm terrible at managing logistics!", "Caroline really did all the heavy lifting when getting this town started."],
         ["I love the calmness of being out in the wild and foraging for food.", "If you stop and listen you can hear the little patters of wild animals."],
-        ["It's good to save at least one of every flower you find out in the wild.", "They seem to grow wildly with a little bonemeal, unlike crops and saplings.", "Plus Aiden really loves flowers, esepcially some of the rare ones I find!"]
+        ["It's good to save at least one of every flower you find out in the wild.", "They seem to grow wildly with a little bonemeal, unlike crops and saplings.", "Plus Aiden really loves flowers, especially some of the rare ones I find!"]
       ],
       friendship3: [
         "What can I get you @i?",
@@ -73,7 +73,7 @@ if (global.datagenDialog) {
       ],
       friendship5: [
         ["I really appreciate what Caroline's done for the town.", "Most people aren't aware of it from the outside, but she's done so much for everyone"],
-        ["I wonder if there's a way we can get Haruna home...", "At least for a vist. I'd hate to see Haruna gone forever."],
+        ["I wonder if there's a way we can get Haruna home...", "At least for a visit. I'd hate to see Haruna gone forever."],
         "On my last expedition I found some wild penguins! I should get some for Maria.",
         "How's your farm coming along?",
         ["Make sure you have the right equipment before diving into the Skull Cavern.", "Wouldn't want anything to happen to you."],
@@ -104,7 +104,7 @@ if (global.datagenDialog) {
         "You read my mind @i, I was running out of these!",
         "Thank you, I can't wait to get done working today so I can use this.",
         "That's very nice of you, going out of your way to get me this with that busy schedule you have means a lot.",
-        "I'm a little awkward when reciving gifts but trust me I do like this!",
+        "I'm a little awkward when receiving gifts but trust me I do like this!",
         "Thank you @i, large gestures like these mean a lot.",
       ],
       neutral: [

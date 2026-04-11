@@ -34,7 +34,8 @@
 - Space_mex - Skillexpnotifier mod
 - Devon - Farmer's Almanac trees, various fixes
 - copixel - Fish Finder
-- Mayhan - Various fix contributions
+- Mayhan - Shipping Bin renaming, Various fix contributions
+- Tomsauy - /debt commands
 
 ### Translation Contributors
 - AonGreyfox - th_th translation
@@ -43,6 +44,8 @@
 - yizhouuu - zh_cn translation
 - Tukita - es_es translation
 - Markis_nub - es_es translation
+- Nur_sg  - es_es translation
+- Tomsauy - fr_fr translation
 
 ### Additional Credits
 - Shaders provided by Complementary Reimagined 

@@ -13,7 +13,7 @@ ServerEvents.recipes((e) => {
     { plank: "atmospheric:grimwood_planks", slab: "atmospheric:grimwood_slab" },
     { plank: "atmospheric:laurel_planks", slab: "atmospheric:laurel_slab" },
     { plank: "vinery:dark_cherry_planks", slab: "vinery:dark_cherry_slab" },
-    { plank: "vanillabackport:pale_oak_planks", slab: "vanillabackport:pale_oak_slab" },
+    { plank: "minecraft:pale_oak_planks", slab: "minecraft:pale_oak_slab" },
   ].forEach((recipe) => {
     const { plank, slab } = recipe;
     e.shaped(`6x ${slab}`, ["   ", "ppp", "   "], {
@@ -32,7 +32,7 @@ ServerEvents.recipes((e) => {
     "betterarcheology:rotten_planks",
     "meadow:pine_planks",
     "beachparty:palm_planks",
-    "vanillabackport:pale_oak_planks"
+    "minecraft:pale_oak_planks"
   ].forEach((plank) => {
     e.shaped("minecraft:chest", ["ppp", "p p", "ppp"], {
       p: plank,

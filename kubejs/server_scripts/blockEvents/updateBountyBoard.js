@@ -1,7 +1,7 @@
 console.info("[SOCIETY] updateBountyBoard.js loaded");
 
 BlockEvents.rightClicked("bountiful:bountyboard", (e) => {
-  const {level, block } = e;
+  const { level, block } = e;
   let seasonalBounties = ["summer", "spring", "autumn", "winter"];
   let blockNbt = block.getEntityData();
   const decrees = blockNbt.decree_inv.Items;
@@ -21,6 +21,6 @@ BlockEvents.rightClicked("bountiful:bountyboard", (e) => {
     }
   }
   if (hasChanged) {
-    block.setEntityData(blockNbt);
+    global.setBlockEntityData(block, blockNbt);
   }
 });

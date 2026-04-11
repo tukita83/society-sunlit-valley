@@ -1,43 +1,57 @@
 ^^^
 ## The Heart of the Community
-### v4.0.4
+### v4.0.5
 ^^^
 --- 
-## 4.0.4
-- Added plushie wand functionality: Left clicking to instantly break plushies
-- Added conversion for flint to pebbles
-- Added fire resistance to Fish Pond Baskets
-- Added some es_es translations (for real this time (Thanks Tukita & Markis_nub))
-- Added back Brown and Blue eggs and added recipes for them
-- Added large egg tag to Galliraptor, Penguin, Flamingo eggs
-- Added ability to make blueprints translatable (Thanks Thirace446)
-- Added instamining fruit tree fruits with shears (Thanks Mayhan zvabnyk's BF)
-- Added safe instabreaking for fruit tree fruits using shears 
+- Added day count to crop Jade and other important info (Thanks Hexagreen)
+- Added recipes to pre-fertilize dirt
+- Added recipes to convert up Sophisticated Stack/tier upgrades
+- Added society:fish_pond_water tag for kelp counting as water
+- Added obsidian as a path block
+- Added ability to silk touch Herbalbrews dried tea leaves
+- Added ability to rename Shipping Bins (Thanks Mayhan)
+- Added bulk Mana Feed conversion recipe
+- Added ability for ATMs, Phones, and Lootr chests to be interacted with in claims
+- Added subSeasonDuration to kubejs/startup_scripts/config.js. This allows year 2 to be synced if it's changed in serene season's config.
+- Updated es_es translation (Thanks tukita83)
 - Updated ko_kr translation (Thanks Hexagreen)
-- Season name in top left will give information on winter/infertile biomes
-- Increased auto-petter area 3x3x3 -> 5x5x5
-- Increased affection gain mult from animal fancy 1.5x -> 2x
-- Increased husbandry experience gain when petting 10 -> 10 * affection hearts
-- Increased mushroom trade prices to match new values
-- Increased Artisan Hopper & Fish Pond Basket runtime from 10s -> 30s for performance
-- Caroline now appreciates cooked dishes slightly more
-- Removed Scorpion spawn from the Desert Fault and replaced it with Evoker
-- Removed ability for Treepers to naturally spawn due to them being fps killers and added a recipe for the spawn egg
-- Fixed Splendid Slimes being carryonable
-- Fixed Plushie Wand potentially causing chunk corruption
-- Fixed Plushie Wand extracting the wrong type of Wooly Cow
-- Fixed Cruncher being listed as Red Panda
-- Fixed Snails and Turtles not dropping quality
-- Fixed deployers being able to right click npcs
-- Fixed Gray Anatomy upgrade not working with Artisan Hoppers
-- Fixed Mushroom Log not being harvested by Artisan Hoppers (Thanks Mayhan zvabnyk's BF)
-- Fixed Black Opal not working properly + general legacy artisan machine cleanup (Thanks Mayhan zvabnyk's BF)
-- Fixed issue where carrying mobs while a blueprint places causes incomplete builds
-- Fixed Seed Maker and other quality-preserving machines applying quality nbt to drops at 0 quality
-- Fixed extremely weird hitbox of villager home block
-- Fixed leaves instantly decaying when placing blockapedia
-- Fixed edge cases where villager home blocks were still binding to the incorrect villager
-- Fixed villagers not liking things they should have in specific cases
+- Updated zh_cn translation (Thanks Thirace446)
+- Updated Steam and Rails, adding more decorative blocks and paint system
+- Beef Wellington now accepts beef, shockingly
+- Magic Shears now shear Minisheep
+- Aero Mono population 7 quest changed Heavy Core -> 16 Dream Catcher
+- Increased experience gained from petting 10 * affection -> 20 * affection with a floor of 10
+- Dried tea can now be silk touched to harvest
+- Removed Timeline (morning popup) due to general issues keeping it in sync (may return at some point)
+- Removed mood check for BFF skill
+- Re-Added Pale Oak boats due to crash fix
+- Mood Scanner now shows animal mood/affection UI
+- Villager quests will also check if you invited the villager, in case you use the invitation faster than the quest is counted
+- Sheep now lose affection from witnessing a ritual sacrifice
+- Prevented waterframes blocks from being used in contraption due to crash
+- Fixed several inaccuracies in quest book, farmer's almanac, and tooltips
+- Fixed Magnifying Glass not showing updated range of Auto-Petter
+- Fixed bundle causing non-stackable items
+- Fixed Iridium Clock having incorrect range 
+- Fixed Cherry Saplings not being unlocked with universal methods of farming
+- Fixed Brine and Punishment not working with Pickled Eggs
+- Fixed Artisan Hoppers consuming less items with Wine Kegs
+- Fixed Blacksmith's home having bubble spot
+- Fixed Amethyst Milk and Grain Milk not draining with Create
+- Fixed bonemeal working on certain things
+- Fixed Sommelier trait not working properly with Oil Maker and Loom recipes
+- Fixed Car Keys not working when renamed
+- Fixed Orange Pine leaves not having the leaf tag
+- Fixed Sparkpods not benefiting from extra drops
+- Fixed regular cows not working when plushiefied
+- Fixed Blazing Flask not having sell value
+- Fixed villager home/skull cavern teleporter not working outside of overworld
+- Fixed several barns not having correct/any Feeding Troughs
+- Fixed breeding not giving husbandry experience
+- Fixed Auto-Petter making it so mood never updates
+- Fixed day checker not working correctly, causing a variety of weird bugs
+- Fixed so many typos
+- Fixed exploits
 
 ## 4.0.0
 - Added new NPC mechanics to completely replace the previous villager system
@@ -172,42 +186,7 @@
 - Removed Demon Herring's Galaxy Sword quest due to unfortunate incidents
 - Renamed Vinery Lattices to Grapevine Lattice
 - Renamed Grape Bushes to wild grapes and disabled their growth
-- Fixed Minisheep not counting for Sacrificial Lamb skill
-- Fixed Phone having normal recipe
-- Fixed Bamboo Galley not being craftable
-- Fixed Garlic Clove having seasons
-- Fixed Palm Torch not dropping when broken
-- Fixed Cluttered Logs not having log tag
-- Fixed Black Packed Silt recipe being missing
-- Fixed dried tea blocks not retaining quality
-- Fixed weird quest dependencies 
-- Fixed Paradise Crop not working on certain crops
-- Fixed Copycat Stair conversion recipe
-- Fixed Artisan Hoppers not handling multiple outputs
-- Fixed fake players working on Statue of Endless Fortune
-- Fixed block placement cancels resulting in ghost items
-- Fixed Fish Ponds losing quest status when broken
-- Fixed Cluttered counter edges being uncraftable
-- Fixed Cluttered plushies not being considered plushies
-- Fixed several issues with crop quality not calculating correctly
-- Fixed ribbit artifacts not being counted as artifacts
-- Fixed Cod & Brown Shrooma having incorrect time of day in Fish Finder 
-- Fixed tomatoes only growing up 1 vine
-- Fixed Sparkstone Recycler not working on Auto-Grabber and Fish Pond Basket
-- Fixed High Quality Fertilized Farmland not working
-- Fixed Strawberry having vegetable tag
-- Fixed trade limits not working on shops meant to have them
-- Fixed Ender Slime having wrong hat
-- Fixed slimes not losing huger if their owner is in a different dimension
-- Fixed certain farm animal drops not having quality
-- Fixed Garlic Clove being plantable
-- Fixed Ancient Cask not dropping all completed products when upgraded
-- Fixed not being able to change spawner types in creative
-- Fixed Ribbit Gardeners existing
-- Fixed Greenhouse Glass Stairs getting snow'd on and removing functionality
-- Fixed Sparkstone and Neptunium Blocks not being a valid beacon block
-- Fixed Birtday Cake not having a recipe
-- Fixed exploits
+- Various fixes that make the changelog too long to render
 
 ## 4.0.1
 - Villager home blocks can now be removed in creative if broken
@@ -269,3 +248,39 @@
 - Fixed Moon Dwarf statue fossil drops
 - Fixed Raw Lead Ore block causing brain damage when broken despite having Intro to Algorithms
 - Fixed artisan machines not saving progress when entering different dimensions
+
+## 4.0.4
+- Added plushie wand functionality: Left clicking to instantly break plushies
+- Added conversion for flint to pebbles
+- Added fire resistance to Fish Pond Baskets
+- Added some es_es translations (for real this time (Thanks Tukita & Markis_nub))
+- Added back Brown and Blue eggs and added recipes for them
+- Added large egg tag to Galliraptor, Penguin, Flamingo eggs
+- Added ability to make blueprints translatable (Thanks Thirace446)
+- Added instamining fruit tree fruits with shears (Thanks Mayhan zvabnyk's BF)
+- Added safe instabreaking for fruit tree fruits using shears 
+- Updated ko_kr translation (Thanks Hexagreen)
+- Season name in top left will give information on winter/infertile biomes
+- Increased auto-petter area 3x3x3 -> 5x5x5
+- Increased affection gain mult from animal fancy 1.5x -> 2x
+- Increased husbandry experience gain when petting 10 -> 10 * affection hearts
+- Increased mushroom trade prices to match new values
+- Increased Artisan Hopper & Fish Pond Basket runtime from 10s -> 30s for performance
+- Caroline now appreciates cooked dishes slightly more
+- Removed Scorpion spawn from the Desert Fault and replaced it with Evoker
+- Removed ability for Treepers to naturally spawn due to them being fps killers and added a recipe for the spawn egg
+- Fixed Splendid Slimes being carryonable
+- Fixed Plushie Wand potentially causing chunk corruption
+- Fixed Plushie Wand extracting the wrong type of Wooly Cow
+- Fixed Cruncher being listed as Red Panda
+- Fixed Snails and Turtles not dropping quality
+- Fixed deployers being able to right click npcs
+- Fixed Gray Anatomy upgrade not working with Artisan Hoppers
+- Fixed Mushroom Log not being harvested by Artisan Hoppers (Thanks Mayhan zvabnyk's BF)
+- Fixed Black Opal not working properly + general legacy artisan machine cleanup (Thanks Mayhan zvabnyk's BF)
+- Fixed issue where carrying mobs while a blueprint places causes incomplete builds
+- Fixed Seed Maker and other quality-preserving machines applying quality nbt to drops at 0 quality
+- Fixed extremely weird hitbox of villager home block
+- Fixed leaves instantly decaying when placing blockapedia
+- Fixed edge cases where villager home blocks were still binding to the incorrect villager
+- Fixed villagers not liking things they should have in specific cases

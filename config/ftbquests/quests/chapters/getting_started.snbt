@@ -261,6 +261,7 @@
 			]
 			icon: "minecraft:bell"
 			id: "66D159252C70D5F2"
+			min_required_tasks: 1
 			rewards: [
 				{
 					id: "71BC141AEB9C3428"
@@ -303,20 +304,38 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.getting_started.quest66D159252C70D5F2.subtitle}"
-			tasks: [{
-				id: "44E951A44F1CF7F0"
-				item: {
-					Count: 1
-					id: "society:invitation"
-					tag: {
-						type: {
-							id: "society:carpenter"
+			tasks: [
+				{
+					id: "44E951A44F1CF7F0"
+					item: {
+						Count: 1
+						id: "society:invitation"
+						tag: {
+							type: {
+								id: "society:carpenter"
+							}
 						}
 					}
+					match_nbt: true
+					type: "item"
 				}
-				match_nbt: true
-				type: "item"
-			}]
+				{
+					disable_toast: true
+					icon: {
+						Count: 1
+						id: "society:villager"
+						tag: {
+							type: {
+								id: "society:carpenter"
+							}
+						}
+					}
+					id: "77941199A5AAA562"
+					stage: "invited_carpenter"
+					title: "{ftbquests.chapter.getting_started.quest66D159252C70D5F2.task.8616531338673694050.title}"
+					type: "gamestage"
+				}
+			]
 			title: "{ftbquests.chapter.getting_started.quest66D159252C70D5F2.title}"
 			x: 6.5d
 			y: -1.5d
@@ -822,63 +841,75 @@
 			]
 			icon: "society:pig_race_ticket"
 			id: "4DB169DA4B4CCFBA"
-			rewards: [
-				{
-					id: "49E5FB8738AB8D25"
-					item: "whimsy_deco:gold_curio_cash_register"
-					type: "item"
-				}
-				{
-					id: "669F3B06BA7E112C"
-					item: {
-						Count: 1
-						id: "portable_blueprints:worn_blueprint"
-						tag: {
-							Damage: 1
-							allow_nbt: 1
-							altezza: 0
-							blueprint_name: "npc_banker"
-							buildAnyway: 0b
-							display: {
-								Name: "{\"italic\":false,\"color\":\"#FFFF00\",\"translate\":\"portable_blueprints.worn_blueprint.banker_house\"}"
-							}
-							free_build: 1
-							inventari_blocco_selezionati: ""
-							lunghezzaX: 0
-							lunghezzaZ: 0
-							mirrowX: 0b
-							mirrowY: 0b
-							mirrowZ: 0b
-							nome: "npc_banker"
-							originPos: "x=103,y=-60,z=44"
-							owner: "worn"
-							owner_name: "Kanlamari"
-							remaining_uses: 1
-							rotateValue: 0s
-							skipObstructionBlock: 0b
-							visualizeBuild: 0b
-							wasHolding: 1b
-							worn_set: 1b
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.getting_started.quest4DB169DA4B4CCFBA.subtitle}"
-			tasks: [{
-				id: "59E084CB052A33AC"
+			min_required_tasks: 1
+			rewards: [{
+				id: "669F3B06BA7E112C"
 				item: {
 					Count: 1
-					id: "society:invitation"
+					id: "portable_blueprints:worn_blueprint"
 					tag: {
-						type: {
-							id: "society:banker"
+						Damage: 1
+						allow_nbt: 1
+						altezza: 0
+						blueprint_name: "npc_banker"
+						buildAnyway: 0b
+						display: {
+							Name: "{\"italic\":false,\"color\":\"#FFFF00\",\"translate\":\"portable_blueprints.worn_blueprint.banker_house\"}"
 						}
+						free_build: 1
+						inventari_blocco_selezionati: ""
+						lunghezzaX: 0
+						lunghezzaZ: 0
+						mirrowX: 0b
+						mirrowY: 0b
+						mirrowZ: 0b
+						nome: "npc_banker"
+						originPos: "x=103,y=-60,z=44"
+						owner: "worn"
+						owner_name: "Kanlamari"
+						remaining_uses: 1
+						rotateValue: 0s
+						skipObstructionBlock: 0b
+						visualizeBuild: 0b
+						wasHolding: 1b
+						worn_set: 1b
 					}
 				}
-				match_nbt: true
 				type: "item"
 			}]
+			subtitle: "{ftbquests.chapter.getting_started.quest4DB169DA4B4CCFBA.subtitle}"
+			tasks: [
+				{
+					id: "59E084CB052A33AC"
+					item: {
+						Count: 1
+						id: "society:invitation"
+						tag: {
+							type: {
+								id: "society:banker"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: {
+						Count: 1
+						id: "society:villager"
+						tag: {
+							type: {
+								id: "society:banker"
+							}
+						}
+					}
+					id: "3289EF10C786A325"
+					stage: "invited_banker"
+					title: "{ftbquests.chapter.getting_started.quest4DB169DA4B4CCFBA.task.3641704629051761445.title}"
+					type: "gamestage"
+				}
+			]
 			x: 8.0d
 			y: 0.0d
 		}
@@ -948,6 +979,7 @@
 			]
 			icon: "society:iron_upgrade_smithing_template"
 			id: "24C86673E1F57A3E"
+			min_required_tasks: 1
 			rewards: [
 				{
 					id: "0D734609104AE9A0"
@@ -991,20 +1023,38 @@
 				}
 			]
 			subtitle: "{ftbquests.chapter.getting_started.quest24C86673E1F57A3E.subtitle}"
-			tasks: [{
-				id: "425CE445701BE19E"
-				item: {
-					Count: 1
-					id: "society:invitation"
-					tag: {
-						type: {
-							id: "society:blacksmith"
+			tasks: [
+				{
+					id: "425CE445701BE19E"
+					item: {
+						Count: 1
+						id: "society:invitation"
+						tag: {
+							type: {
+								id: "society:blacksmith"
+							}
 						}
 					}
+					match_nbt: true
+					type: "item"
 				}
-				match_nbt: true
-				type: "item"
-			}]
+				{
+					disable_toast: true
+					icon: {
+						Count: 1
+						id: "society:villager"
+						tag: {
+							type: {
+								id: "society:blacksmith"
+							}
+						}
+					}
+					id: "66EF68859A260B35"
+					stage: "invited_blacksmith"
+					title: "{ftbquests.chapter.getting_started.quest24C86673E1F57A3E.task.7417262034328619829.title}"
+					type: "gamestage"
+				}
+			]
 			x: 8.5d
 			y: -1.5d
 		}

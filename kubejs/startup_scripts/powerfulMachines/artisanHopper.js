@@ -134,6 +134,7 @@ global.getArtisanMachineData = (player, block, upgraded, stages) => {
       machineData = {
         recipes: global.wineKegRecipes,
         stageCount: 6,
+        multipleInputs: true,
         soundType: "minecraft:block.wood.place",
       };
       break;
@@ -426,6 +427,11 @@ global.runArtisanHopper = (tickEvent, artisanMachinePos, player, delay) => {
         aboveBlock.inventory &&
         !aboveBlock.inventory.isEmpty()
       ) {
+        let aboveBlockData = aboveBlock.getEntityData();
+        if (aboveBlockData && aboveBlockData.toString().includes("filter_upgrade")) {
+          player.tell(Text.translatable("block.society.artisan_hopper.filter").red());
+          return;
+        }
         let slots = aboveBlock.inventory.getSlots();
         let slotStack;
         let outputCount;

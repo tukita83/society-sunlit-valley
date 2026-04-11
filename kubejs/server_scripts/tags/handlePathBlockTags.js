@@ -50,6 +50,7 @@ const basicVariants = (mod, type) => [
   `${mod}:${type}_wall`,
 ];
 let pathBlocks = [
+  "minecraft:obsidian",
   "windswept:pinecone_block",
   "windswept:pinecone_shingles",
   "windswept:pinecone_shingle_stairs",

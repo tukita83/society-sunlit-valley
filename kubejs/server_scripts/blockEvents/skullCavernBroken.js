@@ -137,7 +137,7 @@ BlockEvents.broken(
     "oreganized:glance_bricks",
     "oreganized:polished_glance",
     "minecraft:moss_block",
-    "vanillabackport:pale_moss_block",
+    "minecraft:pale_moss_block",
     "oreganized:spotted_glance",
     "minecraft:snow_block",
     "minecraft:blue_ice",

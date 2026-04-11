@@ -74,7 +74,7 @@
     "effect.ars_nouveau.mana_regen.description": "마나를 더 빠른 속도로 재생합니다.",
     "effect.astralsorcery.bleed.description": "빠른 지속 피해",
     "effect.astralsorcery.cheat_death.description": "개체가 죽음을 회피할 수 있습니다. 발동 시 근처 몹에게 불을 붙이고, 화염 저항 및 재생 효과를 얻습니다.",
-    "effect.astralsorcery.drop_modifier.description": "드랍 테이블 변경",
+    "effect.astralsorcery.drop_modifier.description": "드롭 테이블 변경",
     "effect.atmospheric.gelled.description": "처음에는 불을 끄고 생명력 재생이 약간 증가하며, 받는 화염 피해가 소폭 감소합니다. 효과가 활성화된 상태에서 다시 효과를 받으면 독에 중독됩니다.",
     "effect.atmospheric.persistence.description": "허기 수치가 낮은 상태에서 달릴 수 있게 합니다.",
     "effect.atmospheric.relief.description": "받는 피해가 효과 레벨 이상이면 사용자가 치유됩니다. 받는 치유량은 효과 레벨과 같습니다.",

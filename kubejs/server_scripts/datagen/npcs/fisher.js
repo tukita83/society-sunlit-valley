@@ -99,7 +99,7 @@ if (global.datagenDialog) {
         ["Such a big valley, and so many fish to catch...", "Oh! Good syllables."],
         "Hello again my friend.",
         "Woe is the fisher with the empty rod...",
-        "A sonet of deepfish, the organ of the cavernous waters.",
+        "A sonnet of deepfish, the organ of the cavernous waters.",
         "Sneep snorp... Sneep snorp... What a rhythm the name of a fish has.",
         "I love days like these.",
         "♫ Hmm hmm hmm... ♫",
@@ -123,14 +123,14 @@ if (global.datagenDialog) {
         "Almost as sweet as the sound of evening waves.",
         "I appreciate this more than you'll know.",
         "You've got a knack for giving gifts @i.",
-        "This is a brisk wind on a warm day, weclome and appreciated."
+        "This is a brisk wind on a warm day, welcome and appreciated."
       ],
       neutral: [
         "This is appreciated.",
         "Thank you @i.",
         "Thank you for the gift @i.",
         "Hmmm do you think one of the others would like this as well?",
-        "I could use this as an offerring for the stars, thank you.",
+        "I could use this as an offering for the stars, thank you.",
         "I was looking to experiment with new kinds of bobbers, thank you.",
         "Thank you for the gift @i.",
         "It's strange, people here give me random things like this. I'm still not used to it.",

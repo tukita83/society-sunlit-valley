@@ -51,7 +51,7 @@ BlockEvents.placed("society:villager_home", (e) => {
 
       if (player && nearbyNPCs.length == 0) {
         server.runCommandSilent(
-          `easy_npc preset import_new custom easy_npc:preset/${npcMap.get(
+          `execute in ${level.dimension} run easy_npc preset import_new custom easy_npc:preset/${npcMap.get(
             String(villagerType)
           )}.npc.nbt ${x} ${y + 0.25} ${z}`
         );

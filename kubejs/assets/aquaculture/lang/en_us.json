@@ -12,5 +12,6 @@
   "aquaculture.light_hook.tooltip.title" : "Light",
   "item.aquaculture.nether_star_hook": "Neptunium-Infused Hook",
   "aquaculture.nether_star_hook.tooltip.title" : "Relic Hunter",
-  "aquaculture.nether_star_hook.tooltip.desc" : "4% chance to catch Relic Troves, increased luck"
+  "aquaculture.nether_star_hook.tooltip.desc" : "4% chance to catch Relic Troves, increased luck",
+  "aquaculture.neptunium_hoe.tooltip.desc" : "Tilled farmland becomes Hydrating Fertilizer"
 }

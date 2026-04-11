@@ -24,9 +24,9 @@ global.getAnimalIsNotCramped = (target, scale, applyGlowing) => {
 
 global.isWarpedCow = (target) => {
   if (target.type === "meadow:wooly_cow") {
+    if (target.toString().includes("WoolyCowEntity")) return Number(target.getNbt().Variant) === 2
     let variant = target.Variant
     if (variant && Number(variant) === 2) return true;
-    else return Number(target.getNbt().Variant) === 2
   }
   return false;
 }
@@ -430,17 +430,17 @@ const getNearbyBlocks = (level, target, radius, tag) => {
 };
 
 
-global.getOrFetchMood = (level, target, day, player, debugMood) => {
+global.getOrFetchMood = (level, target, day, player, debugMood, disregardPet) => {
   if (global.checkEntityTag(target, "society:pet_animal")) return 256;
   const data = target.persistentData;
   let moodDebuffs = 0;
   let moodImpactModifier = getMoodImpactModifier(target);
   if (moodImpactModifier > 1 && debugMood) player.tell(Text.translatable("society.husbandry.mood.breed_impact", moodImpactModifier).gold());
-  if (day - data.getInt("ageLastPet") > 1) {
+  if (!disregardPet && global.compareDay(day, data.getInt("ageLastPet"), 1)) {
     moodDebuffs += 96;
     if (debugMood) player.tell(Text.translatable("society.husbandry.mood.not_pet").red());
   }
-  if (day - data.getInt("ageLastFed") > 1) {
+  if (global.compareDay(day, data.getInt("ageLastFed"), 2)) {
     moodDebuffs += 128;
     if (debugMood) player.tell(Text.translatable("society.husbandry.mood.not_fed").red());
   }
@@ -483,8 +483,9 @@ global.getOrFetchMood = (level, target, day, player, debugMood) => {
     if (baseDebuffs > 0) player.tell(Text.translatable("society.husbandry.mood.total_debuffs", Number(baseDebuffs)).darkRed());
     player.tell(Text.translatable("society.husbandry.mood.final_mood", Number(256 - moodDebuffs)).gray());
   }
-  if (day > data.getInt("ageLastPet")) {
+  if (global.compareDay(day, data.getInt("ageLastSetMood"), 1)) {
     data.lastMood = Math.max(0, 256 - moodDebuffs);
+    data.ageLastSetMood = day;
   }
   return data.lastMood;
 };

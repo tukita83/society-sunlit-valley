@@ -16,7 +16,7 @@ if (global.datagenDialog) {
         ["It's eerie here at night, I'm not used to this must open air."],
         ["Do you need something?"],
         ["Need to pick something up?"],
-        ["The valley is full of wild slimes...", "They always catch me off gaurd and pop out of nowhere."],
+        ["The valley is full of wild slimes...", "They always catch me off guard and pop out of nowhere."],
         ["Have you seen Ace around?"],
         ["What can I do for you today?"],
         ["Hello @i."],
@@ -49,7 +49,7 @@ if (global.datagenDialog) {
         ["All these new people in town...", "Moving to a new town sure is rough."],
         [
           "I've seen some nasty farmers out there that treat their animals cruelly.",
-          "Giant holding penns stuffed to the brim... Makes me sick...",
+          "Giant holding pens stuffed to the brim... Makes me sick...",
           "I'm glad you're not like that!"
         ],
         ["Running low on animal feed?", "Or are you here to adopt!"],
@@ -87,7 +87,7 @@ if (global.datagenDialog) {
         ["Hey @i, what are you up to today?"],
         ["How's your ranch going today?"],
         ["You sure like spending time with me.", "Or maybe you have some sort of ulterior motive..."],
-        ["You really have no rythm when talking to me.", "I never know when to expect you."],
+        ["You really have no rhythm when talking to me.", "I never know when to expect you."],
         ["I wonder if building out this town effects your ego in any way.", "People here will always keep you humble I bet!"],
         ["Caroline can be so mean!", "It's one of the more frustrating things of living here."],
         ["There's so much to industrial farming that I dislike.", "I understand the realities of keeping society going...", "Just don't mistreat animals, I'll know."],
@@ -165,7 +165,7 @@ if (global.datagenDialog) {
         "Oh...",
         "Ah... Okay... Cool...",
         "Did you mean to give this to someone else?",
-        "We don't really have to give gifts to eachother...",
+        "We don't really have to give gifts to each other...",
       ],
       hated: [
         "Why...",

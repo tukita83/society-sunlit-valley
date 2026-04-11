@@ -263,6 +263,8 @@ global.processValueOutput = (
         server.runCommandSilent(
           `playsound etcetera:item.handbell.ring block @a ${player.x} ${player.y} ${player.z} 0.3`
         );
+        let customName = global.getShippingBinName(block.getEntityData().data, true);
+        let finalName = customName ? ` ${customName} ` : "";
         server.runCommandSilent(
           global.getEmbersTextAPICommand(
             player.username,
@@ -270,7 +272,8 @@ global.processValueOutput = (
             160,
             Text.translatable(
               "society.shipping_bin.goods_sold",
-              global.formatPrice(value.toFixed())
+              finalName,
+              global.formatPrice(value.toFixed()),
             ).toJson()
           )
         );

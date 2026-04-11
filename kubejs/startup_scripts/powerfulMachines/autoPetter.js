@@ -12,7 +12,7 @@ global.runAutoPetter = (entity) => {
   if (morningModulo >= autoPetterProgTime && morningModulo < autoPetterProgTime + autoPetterTickRate) {
     let day = global.getDay(level);
 
-    let nearbyFarmAnimals   = level
+    let nearbyFarmAnimals = level
       .getEntitiesWithin(AABB.ofBlock(block).inflate(radius))
       .filter((entity) =>
         global.checkEntityTag(entity, "society:husbandry_animal")
@@ -37,6 +37,18 @@ global.runAutoPetter = (entity) => {
           data.affection = affection - (hungry ? 15 : 25);
         }
         data.ageLastPet = day;
+        level.spawnParticles(
+          "minecraft:heart",
+          true,
+          animal.x,
+          animal.y + 1.5,
+          animal.z,
+          0,
+          0.1,
+          0,
+          1,
+          0.01
+        );
       }
     });
   }

@@ -11,7 +11,7 @@ BlockEvents.rightClicked("society:skull_cavern_teleporter", (e) => {
   if (level.dimension === "society:skull_cavern") {
     player.persistentData.skullCavernEnterDay = -1;
     global.teleportHome(player, server, level);
-  } else if (level.dimension === "minecraft:overworld") {
+  } else if (level.dimension !== "society:skull_cavern") {
     if (level.dayTime() % 24000 > 18000) {
       errorText = Text.translatable("society.skull_cavern.too_late").toJson();
     } else {

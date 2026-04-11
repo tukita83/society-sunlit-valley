@@ -23,6 +23,7 @@
     {
       "id": "sophisticatedstorage:netherite_chest",
       "required": true
-    }
+    },
+    "#functionalstorage:drawer"
   ]
 }

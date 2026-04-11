@@ -11,6 +11,12 @@ global.enableDeathDebt = true;
 
 /**
  * Only server needs to change this
+ * Used for seeds unlocked in year 2. It should match what's in your seasons.toml
+ */
+global.subSeasonDuration = 10;
+
+/**
+ * Only server needs to change this
  * Enables the clock icon from the HUD
  */
 global.clockIcon = true;

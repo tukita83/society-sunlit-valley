@@ -973,6 +973,36 @@ ServerEvents.recipes((e) => {
     p: "minecraft:paper",
     b: "#minecraft:planks",
   });
-  
+
   e.shapeless("society:sun_candy", ['pamhc2trees:lemonitem', 'atmospheric:blood_orange', 'pamhc2trees:mangoitem', 'atmospheric:passion_fruit', Item.of('splendid_slimes:plort', '{plort:{id:"splendid_slimes:sweet"}}').strongNBT(), 'pamhc2trees:dragonfruititem', 'pamhc2trees:starfruititem', 'pamhc2trees:plumitem', 'pamhc2trees:peachitem'])
+  // Sophisticated
+  e.shapeless("sophisticatedbackpacks:stack_upgrade_tier_1", ["2x sophisticatedbackpacks:stack_upgrade_starter_tier"]);
+  e.shapeless("sophisticatedbackpacks:stack_upgrade_tier_2", ["2x sophisticatedbackpacks:stack_upgrade_tier_1"]);
+  e.shapeless("sophisticatedbackpacks:stack_upgrade_tier_3", ["2x sophisticatedbackpacks:stack_upgrade_tier_2"]);
+  e.shapeless("sophisticatedbackpacks:stack_upgrade_tier_4", ["2x sophisticatedbackpacks:stack_upgrade_tier_3"]);
+
+
+  e.shapeless("3x sophisticatedstorage:stack_upgrade_tier_2", ["4x sophisticatedstorage:stack_upgrade_tier_1_plus"]);
+  e.shapeless("sophisticatedstorage:stack_upgrade_tier_2", ["2x sophisticatedstorage:stack_upgrade_tier_1"]);
+  e.shapeless("sophisticatedstorage:stack_upgrade_tier_3", ["2x sophisticatedstorage:stack_upgrade_tier_2"]);
+  e.shapeless("sophisticatedstorage:stack_upgrade_tier_4", ["2x sophisticatedstorage:stack_upgrade_tier_3"]);
+  e.shapeless("sophisticatedstorage:stack_upgrade_tier_5", ["2x sophisticatedstorage:stack_upgrade_tier_4"]);
+  e.shapeless("sophisticatedstorage:stack_upgrade_omega_tier", ["4x sophisticatedstorage:stack_upgrade_tier_5"]);
+
+  e.shapeless("sophisticatedstorage:basic_to_netherite_tier_upgrade", ["sophisticatedstorage:basic_to_copper_tier_upgrade", "sophisticatedstorage:copper_to_iron_tier_upgrade", "sophisticatedstorage:iron_to_gold_tier_upgrade", "sophisticatedstorage:gold_to_diamond_tier_upgrade", "sophisticatedstorage:diamond_to_netherite_tier_upgrade"])
+  e.shapeless("sophisticatedstorage:basic_to_diamond_tier_upgrade", ["sophisticatedstorage:basic_to_copper_tier_upgrade", "sophisticatedstorage:copper_to_iron_tier_upgrade", "sophisticatedstorage:iron_to_gold_tier_upgrade", "sophisticatedstorage:gold_to_diamond_tier_upgrade"])
+  e.shapeless("sophisticatedstorage:basic_to_gold_tier_upgrade", ["sophisticatedstorage:basic_to_copper_tier_upgrade", "sophisticatedstorage:copper_to_iron_tier_upgrade", "sophisticatedstorage:iron_to_gold_tier_upgrade"])
+  e.shapeless("sophisticatedstorage:basic_to_iron_tier_upgrade", ["sophisticatedstorage:basic_to_copper_tier_upgrade", "sophisticatedstorage:copper_to_iron_tier_upgrade"])
+  e.shapeless("sophisticatedstorage:basic_to_copper_tier_upgrade", ["sophisticatedstorage:basic_to_copper_tier_upgrade"])
+
+  e.shapeless("dew_drop_farmland_growth:hyper_fertilized_sand", ["minecraft:sand", "dew_drop_farmland_growth:hyper_fertilizer"])
+  e.shapeless("dew_drop_farmland_growth:weak_fertilized_farmland", ["minecraft:dirt", "dew_drop_farmland_growth:weak_fertilizer"])
+  e.shapeless("dew_drop_farmland_growth:strong_fertilized_farmland", ["minecraft:dirt", "dew_drop_farmland_growth:strong_fertilizer"])
+  e.shapeless("dew_drop_farmland_growth:hyper_fertilized_farmland", ["minecraft:dirt", "dew_drop_farmland_growth:hyper_fertilizer"])
+  e.shapeless("dew_drop_farmland_growth:bountiful_fertilized_farmland", ["minecraft:dirt", "dew_drop_farmland_growth:bountiful_fertilizer"])
+  e.shapeless("dew_drop_farmland_growth:hydrating_farmland", ["minecraft:dirt", "dew_drop_farmland_growth:hydrating_fertilizer"])
+  e.shapeless("dew_drop_farmland_growth:deluxe_hydrating_farmland", ["minecraft:dirt", "dew_drop_farmland_growth:deluxe_hydrating_fertilizer"])
+  e.shapeless("dew_drop_farmland_growth:low_quality_fertilized_farmland", ["minecraft:dirt", "dew_drop_farmland_growth:low_quality_fertilizer"])
+  e.shapeless("dew_drop_farmland_growth:high_quality_fertilized_farmland", ["minecraft:dirt", "dew_drop_farmland_growth:high_quality_fertilizer"])
+  e.shapeless("dew_drop_farmland_growth:pristine_quality_fertilized_farmland", ["minecraft:dirt", "dew_drop_farmland_growth:pristine_quality_fertilizer"])
 });

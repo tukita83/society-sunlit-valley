@@ -3118,7 +3118,7 @@ global.fishPondDefinitions = new Map([
         },
         {
           population: 7,
-          requestedItems: [{ item: "trials:heavy_core", count: 1 }],
+          requestedItems: [{ item: "windswept:dream_catcher", count: 16 }],
         },
       ],
       additionalRewards: [

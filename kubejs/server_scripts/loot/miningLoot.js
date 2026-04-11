@@ -382,6 +382,84 @@ LootJS.modifiers((e) => {
         p.randomChance(0.06).addLoot("society:pristine_star_shards");
       });
   });
+  skullCavernOres.forEach((ore) => {
+    e.addBlockLootModifier(ore)
+      .biome("#forge:is_cold")
+      .pool((p) => {
+        p.not((n) =>
+          n.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
+        );
+        p.matchEntity((entity) => {
+          entity.anyType("minecraft:player");
+        });
+        p.randomChance(0.1).addLoot("society:frozen_geode");
+      });
+    e.addBlockLootModifier(ore)
+      .playerPredicate((p) => global.getSeasonFromLevel(p.level) === "winter")
+      .pool((p) => {
+        p.not((n) =>
+          n.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
+        );
+        p.matchEntity((entity) => {
+          entity.anyType("minecraft:player");
+        });
+        p.randomChance(0.1).addLoot("society:frozen_geode");
+      });
+    e.addBlockLootModifier(ore)
+      .biome("#forge:is_cold")
+      .hasAnyStage("mineralogist")
+      .pool((p) => {
+        p.not((n) =>
+          n.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
+        );
+        p.randomChance(0.1).addLoot("society:frozen_tear");
+      });
+    e.addBlockLootModifier(ore)
+      .biome("#society:is_skull_cavern")
+      .pool((p) => {
+        p.not((n) =>
+          n.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
+        );
+        p.matchEntity((entity) => {
+          entity.anyType("minecraft:player");
+        });
+        p.randomChance(0.04).addLoot("society:omni_geode");
+      });
+    e.addBlockLootModifier(ore)
+      .biome("#society:is_skull_cavern")
+      .hasAnyStage("mineralogist")
+      .pool((p) => {
+        p.not((n) =>
+          n.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
+        );
+        p.randomChance(0.02).addLoot("society:jade");
+      });
+    e.addBlockLootModifier(ore)
+      .hasAnyStage("blockchain")
+      .pool((p) => {
+        p.not((n) =>
+          n.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
+        );
+        p.randomChance(0.03).addLoot("numismatics:crown");
+      });
+    e.addBlockLootModifier(ore)
+      .hasAnyStage("furniture_archaeologist")
+      .pool((p) => {
+        p.not((n) =>
+          n.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
+        );
+        p.randomChance(0.03).addLoot("society:furniture_box");
+      });
+    e.addBlockLootModifier(ore)
+      .hasAnyStage("star_blessing")
+      .anyDimension("society:skull_cavern")
+      .pool((p) => {
+        p.not((n) =>
+          n.matchMainHand(ItemFilter.hasEnchantment("minecraft:silk_touch"))
+        );
+        p.randomChance(0.06).addLoot("society:pristine_star_shards");
+      });
+  });
   [
     "minecraft:deepslate_gold_ore",
     "meadow:alpine_gold_ore",

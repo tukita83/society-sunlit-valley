@@ -97,7 +97,7 @@
   "society_skills.husbandry.triple_truffle": "트리플 트러플",
   "society_skills.husbandry.triple_truffle.description": "돼지의 §6송로버섯§7 생산량 세 배",
   "society_skills.husbandry.sacrificial_lamb": "희생양",
-  "society_skills.husbandry.sacrificial_lamb.description": "§6양§7을 죽이면 호감도의 절반이 주변 가축들에게 분배됨",
+  "society_skills.husbandry.sacrificial_lamb.description": "§6양§7을 죽이면 호감도의 절반이 양을 제외한 주변 가축들에게 분배됨",
   "society_skills.husbandry.transplanting": "이식",
   "society_skills.husbandry.transplanting.description": "가축에게 §6다이아몬드의 심장§7을 사용할 때마다 호감도 +1 하트",
   "society_skills.husbandry.shepherd": "양치기",

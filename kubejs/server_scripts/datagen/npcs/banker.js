@@ -99,7 +99,7 @@ if (global.datagenDialog) {
         ],
         ["A weaker person would have given up talking to me by now."],
         ["Do you need something from me or are you just wasting my time."],
-        ["Some of your recent purcahses have...", "Dissapointed me."],
+        ["Some of your recent purchases have...", "Disappointed me."],
         [
           "I've seen many small settlements just like this one fail time and time again.",
           "Don't add another to the list.",
@@ -201,7 +201,7 @@ if (global.datagenDialog) {
           "Don't let it get to your head.",
         ],
         [
-          "Noticed a few shops were running low on stock latey.",
+          "Noticed a few shops were running low on stock lately.",
           "You must really be expanding production, impressive.",
         ],
         ["I could use a nice bottle of Cristel right now."],
@@ -284,7 +284,7 @@ if (global.datagenDialog) {
         text: [
           "Hello @i, I wanted to talk to you for a bit. I'm pleased to see the progress you're making on your farm.",
           "Unfortunately it's not where I want it to be by this time. You should know me by know, I'm not going to bail you out.",
-          "Maybe this book will help you improve the efficency of your machines.",
+          "Maybe this book will help you improve the efficiency of your machines.",
           "I had to call in a lot of favors to get my hands on this thing so you better soak in every page.",
           "I'll be able to tell if you skim it, I've known you long enough at this point to make it apparent."
         ]
