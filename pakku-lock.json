@@ -10915,7 +10915,10 @@
             ]
         },
         {
-            "pakku_id": "pw6YukgW4OD2QwCM",
+            "pakku_id": "jn08O8K0gsfxSq9z",
+            "pakku_links": [
+                "nubF4pshkcyyOIX9"
+            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "society-trading"
@@ -10929,7 +10932,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "society_trading-1.0.4.jar",
+                    "file_name": "society_trading-1.0.5.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -10937,18 +10940,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7679/663/society_trading-1.0.4.jar",
-                    "id": "7679663",
+                    "url": "https://edge.forgecdn.net/files/7907/806/society_trading-1.0.5.jar",
+                    "id": "7907806",
                     "parent_id": "1347329",
                     "hashes": {
-                        "sha1": "38cef98f3ab6d260e0a675fb12c9b58b2c30ec96",
-                        "md5": "fcaeb4e98f8572be00f1728145a4189f"
+                        "sha1": "683a08b082448dd7376023ecf04b6fa14a828af3",
+                        "md5": "6249e4fcb455a5beeb064cb4169a1cc6"
                     },
                     "required_dependencies": [
                         "283644"
                     ],
-                    "size": 174079,
-                    "date_published": "2026-02-26T03:02:23.547Z"
+                    "size": 174084,
+                    "date_published": "2026-04-11T01:01:29.350Z"
                 }
             ]
         },

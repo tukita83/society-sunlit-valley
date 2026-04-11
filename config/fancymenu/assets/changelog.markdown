@@ -49,7 +49,6 @@
 - Fixed breeding not giving husbandry experience
 - Fixed Auto-Petter making it so mood never updates
 - Fixed day checker not working correctly, causing a variety of weird bugs
-- Fixed server not syncing seasons correctly when season config changed
 - Fixed so many typos
 - Fixed exploits
 
