@@ -253,7 +253,7 @@
   "command.society.pig_race.no_bet": "반대 손에 금 코인 이상의 코인을 들고 베팅하세요",
   "command.society.pig_race.insufficient_bet": "적어도 %s §f●§r 이상 베팅해야 합니다",
   "command.society.pig_race.already_bet": "이미 베팅했습니다!",
-  "command.society.pig_race.success": "%1$s님이 %3$s 돼지에게 %2%s §f●§r 을 베팅했습니다!",
+  "command.society.pig_race.success": "%1$s님이 %3$s 돼지에게 %2$s §f●§r 을 베팅했습니다!",
   "command.society.debt.has_debt": "%s이(가) 보유한 빚: §f●§r %s",
   "command.society.debt.no_debt": "%s은(는) 빚이 없습니다.",
   "command.society.debt.reset": "%s의 빚을 0 으로 초기화했습니다.",
