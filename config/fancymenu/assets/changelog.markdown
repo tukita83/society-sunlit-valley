@@ -16,9 +16,11 @@ Society: Sunlit Cobblemon releases on April 26th!
 - Changed ink liquid recipe to use ink sacs 
 - Player home blocks can be removed in creative no matter who placed it
 - Fixed shipping bin renaming bugging out on servers
-- Fixed Immortal spawning in the overworld forever and ever
+- Fixed Immortal spawning in the overworld forever and ever sorry for the jumpscares
 - Fixed edge case where Juice inserter was spamming logs
 - Fixed recipes of new Classic Pipes items
+- Fixed some inaccuracies in Fish Finder/Farmer's Almanac/Quests
+- Fixed errors with Juice Inserter
 - Fixed some Sherds having duplicate tooltips
 - Fixed cluttered logs not having the stripped log tag
 - Fixed Aging Cask Broken clock not having rounded up display in jade/right click
